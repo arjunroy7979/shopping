@@ -6,7 +6,7 @@ const dotenv = require("dotenv").config()
 const app = express();
 app.use(cors(
     {
-        Origin: ["https://shopping-api-eight.vercel.app/"],
+        origin: ["https://shopping-api-eight.vercel.app/"],
         methods: ["POST","GET"],
         credentials: true
     }
