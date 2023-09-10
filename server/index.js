@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const dotenv = require("dotenv").config()
 
 const app = express();
-app.use(cors({origin:"https://shopping-pearl-pi.vercel.app"}))
+app.use(cors())
 app.use(express.json({ limit: "20mb" }))
 
 const PORT = process.env.PORT || 8080
