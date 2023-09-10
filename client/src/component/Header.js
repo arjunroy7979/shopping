@@ -62,7 +62,7 @@ const Header = () => {
                                 }
                                 <nav className='text-base md:text-lg flex flex-col md:hidden'>
                                     <Link to={"/"} className='px-2 py-1'>Home</Link>
-                                    <Link to={"menu/64aef29e841889f64db182e3""} className='px-2 py-1'>Menu</Link>
+                                    <Link to={"menu/64aef29e841889f64db182e3"} className='px-2 py-1'>Menu</Link>
                                     <Link to={"about"} className='px-2 py-1'>About</Link>
                                     <Link to={"contact"} className='px-2 py-1'>Contact</Link>
                                 </nav>
