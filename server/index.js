@@ -6,9 +6,7 @@ const dotenv = require("dotenv").config()
 const app = express();
 app.use(cors(
     {
-        origin: ["https://shopping-api-eight.vercel.app/"],
-        methods: ["POST","GET"],
-        credentials: true
+        origin: "https://shopping-api-eight.vercel.app/"
     }
 ));
 app.use(express.json({ limit: "20mb" }))
